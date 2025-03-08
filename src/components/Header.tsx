@@ -12,6 +12,25 @@ const Header = () => {
           Criando experiências web primorosas desde 2021
         </p>
       </div>
+      <nav>
+        <ul className="flex flex-col gap-4 text-zinc-400">
+          <li>
+            <a href="#about" className="hover:text-zinc-200">
+              Sobre
+            </a>
+          </li>
+          <li>
+            <a href="#experience" className="hover:text-zinc-200">
+              Experiência
+            </a>
+          </li>
+          <li>
+            <a href="#relevant-projects" className="hover:text-zinc-200">
+              Projetos relevantes
+            </a>
+          </li>
+        </ul>
+      </nav>
       <ul className="mt-8 lg:mt-0 inline-flex gap-5">
         <li>
           <a
