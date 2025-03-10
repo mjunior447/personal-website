@@ -4,6 +4,9 @@ const AboutSection = () => {
       id="about"
       className="text-md md:text-md text-zinc-400 tracking-wide leading-7"
     >
+      <h2 className="uppercase text-slate-200 font-bold tracking-wider mb-4 lg:hidden">
+        Sobre
+      </h2>
       <p className="mb-4">
         Sou um Desenvolvedor Web fascinado pela criação de interfaces que sejam
         ao mesmo tempo bonitas, fáceis de usar e acessíveis. Meu momento de

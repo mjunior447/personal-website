@@ -1,5 +1,6 @@
 import AboutSection from "./AboutSection";
 import ExperienceSection from "./ExperienceSection";
+import FooterInfoSection from "./FooterInfoSection";
 import RelevantProjectsSection from "./RelevantProjectsSection";
 
 const MainContent = () => {
@@ -8,6 +9,7 @@ const MainContent = () => {
       <AboutSection />
       <ExperienceSection />
       <RelevantProjectsSection />
+      <FooterInfoSection />
     </main>
   );
 };

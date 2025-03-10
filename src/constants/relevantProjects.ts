@@ -9,7 +9,7 @@ const relevantProjects = [
     imageUrl: "/project-images/zentry-clone-thumbnail.png",
     title: "Zentry clone",
     description:
-      "Clone o zentry.com, um site indicado ao Awwwards. Feito com React.js e GSAP",
+      "Clone do zentry.com, um site indicado ao Awwwards. Feito com React.js e GSAP",
   },
   {
     imageUrl: "",
