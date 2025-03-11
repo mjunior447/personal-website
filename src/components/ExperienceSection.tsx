@@ -1,5 +1,6 @@
 import experiences from "../constants/experiences";
 import Card from "./Card";
+import ExternalLink from "./ExternalLink";
 
 const ExperienceSection = () => {
   return (
@@ -13,12 +14,23 @@ const ExperienceSection = () => {
             key={index}
             className="mt-8 hover:opacity-100 group-hover:opacity-50 transition-opacity duration-150 ease-in"
           >
-            <Card
-              period={exp.period}
-              title={exp.title}
-              description={exp.description}
-              skills={exp.skills}
-            />
+            {exp.href ? (
+              <ExternalLink href={exp.href}>
+                <Card
+                  period={exp.period}
+                  title={exp.title}
+                  description={exp.description}
+                  skills={exp.skills}
+                />
+              </ExternalLink>
+            ) : (
+              <Card
+                period={exp.period}
+                title={exp.title}
+                description={exp.description}
+                skills={exp.skills}
+              />
+            )}
           </li>
         ))}
       </ul>
