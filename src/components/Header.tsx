@@ -13,7 +13,7 @@ const Header = () => {
         </p>
       </div>
       <nav>
-        <ul className="flex flex-col gap-4 text-zinc-400">
+        <ul className="flex-col gap-4 text-zinc-400 hidden lg:flex">
           <li>
             <a href="#about" className="hover:text-zinc-200">
               Sobre
