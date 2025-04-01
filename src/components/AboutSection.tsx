@@ -7,7 +7,7 @@ const AboutSection = () => {
       id="about"
       className="text-md md:text-md text-zinc-400 tracking-wide leading-6"
     >
-      <h2 className="uppercase text-slate-200 font-bold tracking-wider mb-4 lg:hidden">
+      <h2 className="uppercase text-slate-200 font-bold tracking-wider mb-4">
         Sobre
       </h2>
       <p className="mb-4">

@@ -12,25 +12,6 @@ const Header = () => {
           Criador de experiências web impactantes e performáticas
         </p>
       </div>
-      <nav>
-        <ul className="flex-col gap-4 text-zinc-400 hidden lg:flex">
-          <li>
-            <a href="#about" className="hover:text-zinc-200">
-              Sobre
-            </a>
-          </li>
-          <li>
-            <a href="#experience" className="hover:text-zinc-200">
-              Experiência
-            </a>
-          </li>
-          <li>
-            <a href="#relevant-projects" className="hover:text-zinc-200">
-              Projetos relevantes
-            </a>
-          </li>
-        </ul>
-      </nav>
       <ul className="mt-8 lg:mt-0 inline-flex gap-5">
         <li>
           <a

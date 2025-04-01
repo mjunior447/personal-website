@@ -5,7 +5,7 @@ import ExternalLink from "./ExternalLink";
 const ExperienceSection = () => {
   return (
     <section id="experience" className="mt-20 lg:mt-40">
-      <h2 className="uppercase text-slate-200 font-bold tracking-wider lg:hidden">
+      <h2 className="uppercase text-slate-200 font-bold tracking-wider">
         Experiência
       </h2>
       <ul className="group">

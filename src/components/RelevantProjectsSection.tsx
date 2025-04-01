@@ -6,7 +6,7 @@ const RelevantProjectsSection = () => {
   return (
     <>
       <section id="relevant-projects" className="mt-20 lg:mt-40">
-        <h2 className="uppercase text-slate-200 font-bold tracking-wider lg:hidden">
+        <h2 className="uppercase text-slate-200 font-bold tracking-wider">
           Projetos relevantes
         </h2>
         <ul className="group">
