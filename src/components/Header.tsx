@@ -9,7 +9,7 @@ const Header = () => {
         <h1 className="text-4xl md:text-5xl font-bold">Mauricio Antero</h1>
         <h2 className="text-lg md:text-xl mt-4">Desenvolvedor Front End</h2>
         <p className="mt-5 text-zinc-400">
-          Criando experiências web primorosas desde 2021
+          Criador de experiências web impactantes e performáticas
         </p>
       </div>
       <nav>
