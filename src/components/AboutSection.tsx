@@ -11,9 +11,8 @@ const AboutSection = () => {
         Sobre
       </h2>
       <p className="mb-4">
-        Sou um Desenvolvedor Web fascinado pela criação de interfaces que sejam
-        ao mesmo tempo bonitas, fáceis de usar e acessíveis. Meu momento de
-        brilho acontece quando posso intercalar desenvolvimento, layout e
+        Sou um Desenvolvedor Web fascinado pela criação de interfaces intuitivas
+        e acessíveis. Meu trabalho intercala desenvolvimento, layout e
         usabilidade, criando uma experiência fluida e performática.
       </p>
 
@@ -21,7 +20,7 @@ const AboutSection = () => {
         Atualmente, trabalho como Desenvolvedor Front End autônomo, criando
         interfaces únicas e entregando soluções completas, testadas de ponta a
         ponta, sempre com foco no cliente. Já tive oportunidade de trabalhar
-        para diversas empresas, de startups - como a{" "}
+        para diversas empresas, desde startups - como a{" "}
         <ExternalLink href={links.companies.easy2life}>Easy2Life</ExternalLink>{" "}
         - a empresas grandes - como a{" "}
         <ExternalLink href={links.companies.sulamerica}>
@@ -32,12 +31,8 @@ const AboutSection = () => {
       </p>
 
       <p className="mb-4">
-        Avançando um pouco mais no passado, traduzi{" "}
-        <ExternalLink href={links.projects.bookTranslation}>
-          um livro de literatura
-        </ExternalLink>{" "}
-        do inglês para o português, e colaborei como tradutor e revisor de texto
-        em outros projetos literários,{" "}
+        Também tenho expertise em Tradução e Revisão de textos. Colaborei como
+        tradutor e revisor em projetos literários,{" "}
         <ExternalLink href={links.companies.hechoPorNosotros}>
           em inglês
         </ExternalLink>{" "}
@@ -45,12 +40,18 @@ const AboutSection = () => {
         <ExternalLink href={links.companies.expertoAnimal}>
           em espanhol
         </ExternalLink>
-        .
+        , traduzi
+        <ExternalLink href={links.projects.bookTranslation}>
+          {" "}
+          o livro House of Cards
+        </ExternalLink>{" "}
+        do inglês para o português e participei de projetos voluntários na área.
       </p>
 
       <p className="mb-4">
-        Quando sobra algum tempinho, eu gosto de ler, praticar exercícios
-        físicos, ouvir música e passar um tempo com pessoas queridas.
+        Estou me aperfeiçoando continuamente. No momento, estou aprendendo
+        arquitetura Cloud na AWS e desenvolvimento back-end com Java e Spring
+        Boot.
       </p>
     </section>
   );
