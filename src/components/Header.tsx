@@ -1,10 +1,22 @@
 import InstagramLogo from "@/src/components/icons/InstagramLogo";
 import LinkedInLogo from "./icons/LinkedInLogo";
 import GithubLogo from "./icons/GithubLogo";
+import { AnimatedGridPattern } from "./magicui/animated-grid-pattern";
+import { cn } from "@/lib/utils";
 
 const Header = () => {
   return (
     <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-[48%] lg:flex-col lg:justify-between lg:py-24 text-zinc-200">
+      <AnimatedGridPattern
+        numSquares={30}
+        maxOpacity={0.1}
+        duration={3}
+        repeatDelay={1}
+        className={cn(
+          "[mask-image:radial-gradient(300px_circle_at_center,white,transparent)]",
+          "inset-x-0 inset-y-[-30%] h-[180%] skew-y-12"
+        )}
+      />
       <div>
         <h1 className="text-4xl md:text-5xl font-bold">Mauricio Antero</h1>
         <h2 className="text-lg md:text-xl mt-4">Desenvolvedor Front End</h2>
