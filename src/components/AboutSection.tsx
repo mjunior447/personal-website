@@ -21,9 +21,17 @@ const AboutSection = () => {
         interfaces únicas e entregando soluções completas, testadas de ponta a
         ponta, sempre com foco no cliente. Já tive oportunidade de trabalhar
         para diversas empresas, desde startups - como a{" "}
-        <ExternalLink href={links.companies.easy2life}>Easy2Life</ExternalLink>{" "}
+        <ExternalLink
+          href={links.companies.easy2life}
+          classNames="text-blue-400 hover:underline"
+        >
+          Easy2Life
+        </ExternalLink>{" "}
         - a empresas grandes - como a{" "}
-        <ExternalLink href={links.companies.sulamerica}>
+        <ExternalLink
+          href={links.companies.sulamerica}
+          classNames="text-blue-400 hover:underline"
+        >
           SulAmérica
         </ExternalLink>
         . Com isso, adquiri uma experiência de carreira multifacetada, tendo
@@ -33,15 +41,24 @@ const AboutSection = () => {
       <p className="mb-4">
         Também tenho expertise em Tradução e Revisão de textos. Colaborei como
         tradutor e revisor em projetos literários,{" "}
-        <ExternalLink href={links.companies.hechoPorNosotros}>
+        <ExternalLink
+          href={links.companies.hechoPorNosotros}
+          classNames="text-blue-400 hover:underline"
+        >
           em inglês
         </ExternalLink>{" "}
         e{" "}
-        <ExternalLink href={links.companies.expertoAnimal}>
+        <ExternalLink
+          href={links.companies.expertoAnimal}
+          classNames="text-blue-400 hover:underline"
+        >
           em espanhol
         </ExternalLink>
         , traduzi
-        <ExternalLink href={links.projects.bookTranslation}>
+        <ExternalLink
+          href={links.projects.bookTranslation}
+          classNames="text-blue-400 hover:underline"
+        >
           {" "}
           o livro House of Cards
         </ExternalLink>{" "}

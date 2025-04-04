@@ -1,3 +1,4 @@
+import { cn } from "@/lib/utils";
 import { PropsWithChildren } from "react";
 
 interface ExternalLinkProps {
@@ -14,7 +15,10 @@ const ExternalLink = ({
     <a
       href={href}
       target="_blank"
-      className={`${classNames} text-slate-200/80 hover:text-blue-400 transition-colors duration-100 ease-in`}
+      className={cn(
+        "text-slate-200/80 transition-colors duration-100 ease-in",
+        classNames
+      )}
     >
       {children}
     </a>
