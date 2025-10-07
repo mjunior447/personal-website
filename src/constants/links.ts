@@ -1,5 +1,6 @@
 export const links = {
   companies: {
+    bihands: "https://www.linkedin.com/company/bihands-tecnologia-rfid/?originalSubdomain=br",
     sulamerica: "https://portal.sulamericaseguros.com.br/",
     noorden: "https://www.noorden.com.br/",
     tse: "https://www.tse.jus.br/",

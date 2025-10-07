@@ -17,7 +17,7 @@ const AboutSection = () => {
       </p>
 
       <p className="mb-4">
-        Atualmente, trabalho como Desenvolvedor Front End autônomo, criando
+        Atualmente, trabalho como Desenvolvedor Front-end autônomo, criando
         interfaces únicas e entregando soluções completas, testadas de ponta a
         ponta, sempre com foco no cliente. Já tive oportunidade de trabalhar
         para diversas empresas, desde startups - como a{" "}
@@ -66,9 +66,9 @@ const AboutSection = () => {
       </p>
 
       <p className="mb-4">
-        Estou me aperfeiçoando continuamente. No momento, estou aprendendo
-        arquitetura Cloud na AWS e desenvolvimento back-end com Java e Spring
-        Boot.
+        Estou me aperfeiçoando continuamente. No momento, estou aprendendo mais
+        sobre performance e padrões de projeto no front-end e desenvolvimento
+        back-end com NodeJS.
       </p>
     </section>
   );

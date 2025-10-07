@@ -2,6 +2,45 @@ import { links } from "./links";
 
 const experiences = [
   {
+    period: "Mai/2025 - Presente",
+    title: "Desenvolvedor Front-end | Noorden Group",
+    description:
+      "Resolução de bugs e desenvolvimento de melhorias em plataforma de chat em tempo real. Análise de logs e acesso a banco de dados para investigação. Refatoração de código e propostas de melhoria. Suporte a desenvolvedores mais júniores.",
+    href: links.companies.noorden,
+    skills: [
+      "React.js",
+      "Node.js",
+      "JavaScript",
+      "TypeScript",
+      "Microfrontends",
+      "RESTful API",
+      "WebSocket",
+      "RealTime",
+      "Microsserviços",
+      "Apache Kafka",
+      "AWS",
+      "MongoDB",
+    ],
+  },
+  {
+    period: "Fev/2025 - Mai/2025",
+    title: "Desenvolvedor Front-end | Bihands RFID | Temporário",
+    description:
+      "Manutenção de plataforma ERP com foco em tecnologia RFID. Criação de novas features e correção de bugs em features existentes. Criação de site usando IA generativa para o desenho dos layouts. Contato direto com cliente para entendimento de requisitos e negociação de prazos. Trabalho em conjunto com desenvolvedores backend.",
+    href: links.companies.bihands,
+    skills: [
+      "Next.js",
+      "React.js",
+      "JavaScript",
+      "TypeScript",
+      "RESTful API",
+      "IA Generativa",
+      "Figma",
+      "Github Actions",
+      "MaterialUI",
+    ],
+  },
+  {
     period: "Mar/2024 - Out/2024",
     title: "Desenvolvedor Full-Stack | SulAmérica",
     description:
