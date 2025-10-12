@@ -1,0 +1,74 @@
+{
+  "header": {
+    "role": "Desenvolvedor Front End",
+    "description": "Criador de experiências web impactantes e performáticas"
+  },
+  "about": {
+    "title": "Sobre",
+    "p1": "Sou um Desenvolvedor Web fascinado pela criação de interfaces intuitivas e acessíveis. Meu trabalho intercala desenvolvimento, layout e usabilidade, criando uma experiência fluida e performática.",
+    "p2": {
+      "1": "Atualmente, trabalho como Desenvolvedor Front-end autônomo, criando interfaces únicas e entregando soluções completas, testadas de ponta a ponta, sempre com foco no cliente. Já tive oportunidade de trabalhar para diversas empresas, desde startups - como a",
+      "2": " - a empresas grandes - como a",
+      "3": ". Com isso, adquiri uma experiência de carreira multifacetada, tendo atuado em times diversos tanto em tamanho, quanto em background."
+    },
+    "p3": {
+      "1": "Também tenho expertise em Tradução e Revisão de textos. Colaborei como tradutor e revisor em projetos literários,",
+      "2": " em inglês",
+      "3": "e",
+      "4": "em espanhol",
+      "5": ", traduzi",
+      "6": "o livro House of Cards",
+      "7": "do inglês para o português e participei de projetos voluntários na área."
+    },
+    "p4": "Estou me aperfeiçoando continuamente. No momento, estou aprendendo mais sobre performance e padrões de projeto no front-end e desenvolvimento back-end com NodeJS."
+  },
+  "experiences": {
+    "title": "Experiência",
+    "0": {
+      "period": "Mai/2025 - Presente",
+      "title": "Desenvolvedor Front-end | Noorden Group",
+      "description": "Resolução de bugs e desenvolvimento de melhorias em plataforma de chat em tempo real. Análise de logs e acesso a banco de dados para investigação. Refatoração de código e propostas de melhoria. Suporte a desenvolvedores mais júniores."
+    },
+    "1": {
+      "period": "Fev/2025 - Mai/2025",
+      "title": "Desenvolvedor Front-end | Bihands RFID | Temporário",
+      "description": "Manutenção de plataforma ERP com foco em tecnologia RFID. Criação de novas features e correção de bugs em features existentes. Criação de site usando IA generativa para o desenho dos layouts. Contato direto com cliente para entendimento de requisitos e negociação de prazos. Trabalho em conjunto com desenvolvedores backend."
+    },
+    "2": {
+      "period": "Mar/2024 - Out/2024",
+      "title": "Desenvolvedor Full-Stack | SulAmérica",
+      "description": "Construção de UIs complexas, responsivas e acessíveis usando NextJS e ReactJS. Trabalho em conjunto com a equipe de design para a prototipação de layouts fluidos. Criação e manutenção de APIs RESTful em NodeJS, usando arquitetura de microsserviços. Testes unitários com Jest e React Testing Library, além de testes end-to-end com Cypress. Jenkins para Integração Contínua. Google Cloud Platform. SCRUM."
+    },
+    "3": {
+      "period": "Ago/2021 - Dez/2023",
+      "title": "Desenvolvedor Full-Stack | Noorden Group",
+      "description": "Desenvolvimento de interfaces usando NextJS e ReactJS, além de ChakraUI e MaterialUI para manter a responsividade e acessibilidade. Integração com Back-End. Prototipação de novas páginas Web usando Figma. Desenvolvimento e manutenção de APIs RESTful usando NodeJS. Jenkins para Integração Contínua. SCRUM."
+    },
+    "4": {
+      "period": "Out/2019 - Ago/2021",
+      "title": "Estagiário | Tribunal Superior Eleitoral",
+      "description": "Criação de aplicações em Angular 8+, Python3, integração com banco de dados PostgreSQL. Criação de APIs REST usando Python/Flask, design responsivo com Angular, criação de Shell Scripts para automação de tarefas. SCRUM."
+    }
+  },
+  "projects": {
+    "title": "Projetos relevantes",
+    "0": {
+      "title": "Contrata Fácil",
+      "description": "Simulador de Seguro de Vida completo e fácil de usar para gerar apólices de seguro"
+    },
+    "1": {
+      "title": "Zentry clone",
+      "description": "Clone do zentry.com, um site indicado ao Awwwards. Feito com React.js e GSAP"
+    },
+    "2": {
+      "title": "DevCast",
+      "description": "Uma aplicação SaaS baseada no Spotify, com integração com a API da OpenAI para gerar áudio e imagens"
+    }
+  },
+  "footer": {
+    "p1": {
+      "1": "Design baseado no site da talentosa",
+      "2": ". Feito com Next.js e Tailwind CSS."
+    }
+  }
+}

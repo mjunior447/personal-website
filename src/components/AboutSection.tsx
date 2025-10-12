@@ -1,75 +1,65 @@
+import { useTranslations } from "next-intl";
 import { links } from "../constants/links";
 import ExternalLink from "./ExternalLink";
 
 const AboutSection = () => {
+  const t = useTranslations("about");
+
   return (
     <section
       id="about"
       className="text-md md:text-md text-zinc-400 tracking-wide leading-6"
     >
       <h2 className="uppercase text-slate-200 font-bold tracking-wider mb-4">
-        Sobre
+        {t("title")}
       </h2>
-      <p className="mb-4">
-        Sou um Desenvolvedor Web fascinado pela criação de interfaces intuitivas
-        e acessíveis. Meu trabalho intercala desenvolvimento, layout e
-        usabilidade, criando uma experiência fluida e performática.
-      </p>
+      <p className="mb-4">{t("p1")}</p>
 
       <p className="mb-4">
-        Atualmente, trabalho como Desenvolvedor Front-end autônomo, criando
-        interfaces únicas e entregando soluções completas, testadas de ponta a
-        ponta, sempre com foco no cliente. Já tive oportunidade de trabalhar
-        para diversas empresas, desde startups - como a{" "}
+        {t("p2.1")}{" "}
         <ExternalLink
           href={links.companies.easy2life}
           classNames="text-blue-400 hover:underline"
         >
           Easy2Life
         </ExternalLink>{" "}
-        - a empresas grandes - como a{" "}
+        {t("p2.2")}{" "}
         <ExternalLink
           href={links.companies.sulamerica}
           classNames="text-blue-400 hover:underline"
         >
           SulAmérica
         </ExternalLink>
-        . Com isso, adquiri uma experiência de carreira multifacetada, tendo
-        atuado em times diversos tanto em tamanho, quanto em background.
+        {t("p2.3")}
       </p>
 
       <p className="mb-4">
-        Também tenho expertise em Tradução e Revisão de textos. Colaborei como
-        tradutor e revisor em projetos literários,{" "}
+        {t("p3.1")}{" "}
         <ExternalLink
           href={links.companies.hechoPorNosotros}
           classNames="text-blue-400 hover:underline"
         >
-          em inglês
+          {t("p3.2")}
         </ExternalLink>{" "}
-        e{" "}
+        {t("p3.3")}{" "}
         <ExternalLink
           href={links.companies.expertoAnimal}
           classNames="text-blue-400 hover:underline"
         >
-          em espanhol
+          {t("p3.4")}
         </ExternalLink>
-        , traduzi
+        {t("p3.5")}
         <ExternalLink
           href={links.projects.bookTranslation}
           classNames="text-blue-400 hover:underline"
         >
           {" "}
-          o livro House of Cards
+          {t("p3.6")}
         </ExternalLink>{" "}
-        do inglês para o português e participei de projetos voluntários na área.
+        {t("p3.7")}
       </p>
 
-      <p className="mb-4">
-        Estou me aperfeiçoando continuamente. No momento, estou aprendendo mais
-        sobre performance e padrões de projeto no front-end e desenvolvimento
-        back-end com NodeJS.
-      </p>
+      <p className="mb-4">{t("p4")}</p>
     </section>
   );
 };

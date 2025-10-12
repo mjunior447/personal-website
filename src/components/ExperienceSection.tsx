@@ -1,12 +1,15 @@
+import { useTranslations } from "next-intl";
 import experiences from "../constants/experiences";
 import Card from "./Card";
 import ExternalLink from "./ExternalLink";
 
 const ExperienceSection = () => {
+  const t = useTranslations("experiences");
+
   return (
     <section id="experience" className="mt-20 lg:mt-40">
       <h2 className="uppercase text-slate-200 font-bold tracking-wider">
-        Experiência
+        {t("title")}
       </h2>
       <ul className="group">
         {experiences.map((exp, index) => (
@@ -17,17 +20,17 @@ const ExperienceSection = () => {
             {exp.href ? (
               <ExternalLink href={exp.href}>
                 <Card
-                  period={exp.period}
-                  title={exp.title}
-                  description={exp.description}
+                  period={t(`${index}.period`)}
+                  title={t(`${index}.title`)}
+                  description={t(`${index}.description`)}
                   skills={exp.skills}
                 />
               </ExternalLink>
             ) : (
               <Card
-                period={exp.period}
-                title={exp.title}
-                description={exp.description}
+                period={t(`${index}.period`)}
+                title={t(`${index}.title`)}
+                description={t(`${index}.description`)}
                 skills={exp.skills}
               />
             )}

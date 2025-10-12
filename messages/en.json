@@ -1,0 +1,74 @@
+{
+  "header": {
+    "role": "Front-End Developer",
+    "description": "Crafter of impactful and performant web experiences"
+  },
+  "about": {
+    "title": "About",
+    "p1": "I am a Web Developer fascinated by the creation of intuitive and accessible interfaces. My work involves development, design, and usability, creating a fluid and performant experience.",
+    "p2": {
+      "1": "I currently work as a freelance Front-end Developer, creating unique interfaces and delivering complete, end-to-end tested solutions, always with a focus on the client. I have had the opportunity to work for various companies, ranging from startups — such as",
+      "2": "— to large corporations — like",
+      "3": ". This has allowed me to acquire a multifaceted career experience, having worked in diverse teams, in terms of both size and background."
+    },
+    "p3": {
+      "1": "I also have expertise in Text Translation and Proofreading (or Editing). I have collaborated as a translator and proofreader on literary projects",
+      "2": " in English",
+      "3": "and",
+      "4": "in Spanish",
+      "5": ", translated",
+      "6": "the book House of Cards",
+      "7": "from English to Portuguese, and I participated in volunteer projects in the field."
+    },
+    "p4": "I am continuously improving my skills. Currently, I am learning more about front-end performance and design patterns, as well as back-end development with NodeJS."
+  },
+  "experiences": {
+    "title": "Experience",
+    "0": {
+      "period": "May/2025 - today",
+      "title": "Front-end Developer | Noorden Group",
+      "description": "Bug fixing and development of enhancements for a real-time chat platform. Database access and log analysis for troubleshooting. Code refactoring and proposals for improvement. Mentorship for junior developers."
+    },
+    "1": {
+      "period": "Feb/2025 - May/2025",
+      "title": "Front-end Developer | Bihands RFID | Temporary",
+      "description": "Maintenance of an ERP platform with a focus on RFID technology. Creation of new features and bug fixing in existing features. Website creation using generative AI for the layout design. Direct contact with clients to understand requirements and negotiate deadlines. Collaboration with backend developers."
+    },
+    "2": {
+      "period": "Mar/2024 - Oct/2024",
+      "title": "Full-Stack Developer | SulAmérica",
+      "description": "Construction of complex, responsive, and accessible UIs using NextJS and ReactJS. Collaboration with the design team for the prototyping of fluid layouts. Creation and maintenance of RESTful APIs in NodeJS, using a microservices architecture. Unit tests with Jest and React Testing Library, in addition to end-to-end testing with Cypress. Jenkins for Continuous Integration. Google Cloud Platform. SCRUM."
+    },
+    "3": {
+      "period": "Aug/2021 - Dec/2023",
+      "title": "Full-Stack Developer | Noorden Group",
+      "description": "Development of interfaces using NextJS and ReactJS, in addition to ChakraUI and MaterialUI to maintain responsiveness and accessibility. Integration with Back-End. Prototyping of new Web pages using Figma. Development and maintenance of RESTful APIs using NodeJS. Jenkins for Continuous Integration. SCRUM."
+    },
+    "4": {
+      "period": "Oct/2019 - Aug/2021",
+      "title": "Intern | Superior Electoral Court",
+      "description": "Creation of applications in Angular 8+, Python 3, integration with PostgreSQL database. Creation of REST APIs using Python/Flask, responsive design with Angular, creation of Shell Scripts for task automation. SCRUM."
+    }
+  },
+  "projects": {
+    "title": "Relevant projects",
+    "0": {
+      "title": "Contrata Fácil",
+      "description": "Complete and easy-to-use Life Insurance Simulator for generating insurance policies"
+    },
+    "1": {
+      "title": "Zentry clone",
+      "description": "Clone of zentry.com, an Awwwards-nominated website. Built with React.js and GSAP"
+    },
+    "2": {
+      "title": "DevCast",
+      "description": "A Spotify-inspired SaaS application that integrates with the OpenAI API for audio and image generation"
+    }
+  },
+  "footer": {
+    "p1": {
+      "1": "Design based on the website of the talented",
+      "2": ". Built with Next.js and Tailwind CSS."
+    }
+  }
+}
